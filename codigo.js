@@ -27,4 +27,10 @@ mostrarClima(data);
 
 function mostrarClima(data){
     Document.querySelector('.clima-icono').src = data.current.condition.icon;
+    Document.querySelector('.clima-texto').innerHTML = data.current.condition.text;
+    Document.querySelector('.temp').innerHTML = data.current.temp_c + '°C';
+    Document.querySelector('.ciudad').innerHTML = data.current.name;
+    Document.querySelector('.humedad').innerHTML = data.current.humidity + '%';
+    Document.querySelector('.viento').innerHTML = data.current.wind_kph + 'km/h';
+
 }
