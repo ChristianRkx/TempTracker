@@ -5,29 +5,29 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #222;
 }
 
 .contenedor {
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(125deg, #00feab ,#5b548a);
+    background: linear-gradient(125deg, #00feba, #5b548a);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
-    padding:  40px 35px;
+    padding: 40px 35px;
     text-align: center;
 }
 
-.buscador{
+.buscador {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-input{
+.buscador input {
     border: 0;
     outline: 0;
     background: #ebfffc;
@@ -40,7 +40,7 @@ input{
     font-size: 18px;
 }
 
-button{
+.buscador button {
     border: 0;
     outline: 0;
     background: #ebfffc;
@@ -48,33 +48,30 @@ button{
     width: 60px;
     height: 60px;
     cursor: pointer;
-
 }
 
-button img{
+.buscador button img {
     width: 25px;
 }
 
-
-button:hover{
+.buscador button:hover {
     background: #739893;
     color: #ddd;
 }
-
 
 .clima-icono {
     width: 170px;
     margin-top: 30px;
 }
 
-.clima-texto{
+.clima-texto {
     font-size: 15px;
     margin-top: 25px;
-    margin-bottom:  -25px;
+    margin-bottom: 25px;
     font-style: italic;
 }
 
-h1{
+h1 {
     font-size: 80px;
     font-weight: 500;
 }
@@ -85,29 +82,26 @@ h2 {
     margin-top: -10px;
 }
 
-
-.detalles{
+.detalles {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    margin-top:  50px;
+    margin-top: 50px;
 }
 
-.col{
+.col {
     display: flex;
     align-items: center;
     text-align: left;
 }
 
-.col img{
+.col img {
     width: 40px;
     margin-right: 10px;
 }
-
 
 .humedad, .viento {
     font-size: 28px;
     margin-top: -6px;
 }
-
